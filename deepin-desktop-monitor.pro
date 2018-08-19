@@ -68,4 +68,7 @@ qm_files.files = translations/*.qm
 desktop.files = deepin-desktop-monitor.desktop
 icon.files = image/deepin-desktop-monitor.svg
 
-INSTALLS += desktop icon target qm_files
+autostart.path = /etc/xdg/autostart/
+autostart.files = deepin-desktop-monitor.desktop
+
+INSTALLS += desktop icon target qm_files autostart
